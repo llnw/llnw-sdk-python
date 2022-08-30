@@ -3,7 +3,7 @@
 
 import json
 from urllib.parse import parse_qs
-from sdk.base_client import BaseRestAuthClient
+from ll_sdk.base_client import BaseRestAuthClient
 
 __all__ = ['ConfigApiClient']
 __docformat__ = 'restructuredtext'

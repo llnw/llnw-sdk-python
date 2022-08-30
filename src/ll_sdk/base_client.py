@@ -75,7 +75,7 @@ class BaseRestAuthClient(object):
     def __init__(self, hostname, context, username, api_shared_key, schema, port, default_headers=None):
         self.username = username
         self.api_shared_key = api_shared_key
-        self.logger = logging.getLogger('sdk.' + self.__class__.__name__)
+        self.logger = logging.getLogger('ll_sdk.' + self.__class__.__name__)
         self.base = build_base_url(hostname, context, port, schema)
         self.auth = LlnwUserAuth(self.username, self.api_shared_key)
         self.default_headers = default_headers or {}

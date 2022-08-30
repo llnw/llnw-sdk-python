@@ -7,7 +7,7 @@ __docformat__ = 'restructuredtext'
 import uuid
 import requests
 from copy import deepcopy
-from ll-sdk.utils.config_api_helper.templates.delivery_template import *
+from ll_sdk.utils.config_api_helper.templates.delivery_template import *
 
 
 class DeliverServiceInstanceObj(dict):

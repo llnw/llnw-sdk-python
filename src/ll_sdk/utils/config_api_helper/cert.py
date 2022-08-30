@@ -6,7 +6,7 @@ __docformat__ = 'restructuredtext'
 
 import uuid
 from copy import deepcopy
-from sdk.utils.config_api_helper.templates.ssl_cert_template import *
+from ll_sdk.utils.config_api_helper.templates.ssl_cert_template import *
 
 
 class SSLCertObj(dict):
