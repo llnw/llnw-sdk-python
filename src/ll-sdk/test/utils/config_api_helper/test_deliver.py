@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from sdk.utils.config_api_helper.deilver import DeliverServiceInstanceObj, DeliverInstanceBaseException
+from ll-sdk.utils.config_api_helper.deilver import DeliverServiceInstanceObj, DeliverInstanceBaseException
 
 shortname = "testname"
 published_host = "www.example.com"
