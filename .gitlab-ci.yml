@@ -24,11 +24,11 @@ before_script:
   - pip install virtualenv
   - virtualenv venv
   - source venv/bin/activate
-#test:
-#  script:
-#    - python setup.py test
-#    - pip install flake8  # you can also use tox
-#    - flake8 llnw_ds
+test:
+  script:
+    - pip install pytest
+    - pytest -v --pyargs sdk.test
+
 run:
   script:
    # - python setup.py bdist_wheel
