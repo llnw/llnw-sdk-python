@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from sdk.utils.config_api_helper.cert import SSLCertObj
+from ll_sdk.utils.config_api_helper.cert import SSLCertObj
 
 shortname = "testname"
 certificate = "-----BEGIN CERTIFICATE-----\n-----END CERTIFICATE-----"

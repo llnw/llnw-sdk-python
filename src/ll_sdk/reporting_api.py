@@ -3,8 +3,8 @@
 
 import json
 from itertools import chain
-from sdk.base_client import BaseRestReportingClient
-from sdk.utils.reporting_api_helper.time_utils import _timespan as timespan
+from ll_sdk.base_client import BaseRestReportingClient
+from ll_sdk.utils.reporting_api_helper.time_utils import _timespan as timespan
 
 __all__ = ['ReportingClient']
 __docformat__ = 'restructuredtext'

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import json
-from sdk.base_client import BaseRestReportingClient
-from sdk.utils.reporting_api_helper.time_utils import _timespan as timespan
+from ll_sdk.base_client import BaseRestReportingClient
+from ll_sdk.utils.reporting_api_helper.time_utils import _timespan as timespan
 
 __all__ = ['RealtimeReportingClient']
 __docformat__ = 'restructuredtext'

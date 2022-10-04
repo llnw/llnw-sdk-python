@@ -8,7 +8,7 @@ import uuid
 import requests
 from itertools import product
 from copy import deepcopy
-from sdk.utils.config_api_helper.templates.httpcs_template import *
+from ll_sdk.utils.config_api_helper.templates.httpcs_template import *
 
 
 class HttpCsServiceInstanceObj(dict):
